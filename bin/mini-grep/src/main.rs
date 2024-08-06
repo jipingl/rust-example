@@ -1,4 +1,4 @@
-use minigrep::Config;
+use mini_grep::Config;
 use std::{env, process};
 
 fn main() {
@@ -12,7 +12,7 @@ fn main() {
         config.query, config.file_path
     );
 
-    if let Err(e) = minigrep::run(config) {
+    if let Err(e) = mini_grep::run(config) {
         eprintln!("Application error: {e}");
         process::exit(1);
     };

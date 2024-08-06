@@ -4,6 +4,6 @@ members = [
     # Binaries
     "bin/async-runtime",
     "bin/mini-grep",
-    "bin/mini-redis",
+    "bin/mine-redis",
     # Libraries
 ]
